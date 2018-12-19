@@ -1,5 +1,5 @@
-<cwb:patient xmlns:cwb="http://www.cambeeler.com/Patient">
-  <cwb:id>3</cwb:id>
+<cwb:patient xmlns:cwb="http://www.cambeeler.com/Patient" id="3">
+<!--  <cwb:id>3</cwb:id> -->
   <cwb:name>Wyatt Beeler</cwb:name>
   <cwb:age>14</cwb:age>
   <cwb:dob>2004-09-22</cwb:dob>

@@ -2,13 +2,13 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         targetNamespace="http://www.cambeeler.com/Patient"
         xmlns:cwb="http://www.cambeeler.com/Patient"
-        elementFormDefault="qualified">
+        elementFormDefault="qualified"> <!-- qualified means all resulting xml files will use ns prefix for clarity -->
 
     <element name="patient" type="cwb:Patient" />
 
     <complexType name="Patient">
         <sequence>
-            <element name="id"      type="cwb:ID" />
+<!--            <element name="id"      type="cwb:ID"/>  We will modify this to become an attribute...-->
             <element name="name"    type="string"/>
             <element name="age"     type="int"/>
             <element name="dob"     type="date"/>
@@ -18,6 +18,7 @@
             <element name="payment" type="cwb:PaymentType"/>
             <element name="any"     type="string" />
         </sequence>
+        <attribute name="id"        type="cwb:ID"/>
     </complexType>
 
     <complexType name="PaymentType">

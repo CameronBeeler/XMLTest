@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cwb:patient xmlns:cwb="http://www.cambeeler.com/Patient"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://www.cambeeler.com/Patient Patient.xsd ">
-  <cwb:id>2</cwb:id>
+             xsi:schemaLocation="http://www.cambeeler.com/Patient Patient.xsd " id="2">
+  <!--<cwb:id>2</cwb:id>-->
   <cwb:name>Cameron Beeler</cwb:name>
   <cwb:age>50</cwb:age>
   <cwb:dob>1968-01-25</cwb:dob>
