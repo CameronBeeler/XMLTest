@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cwb:patient xmlns:cwb="http://www.cambeeler.com/Patient"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.cambeeler.com/Patient Patient.xsd ">
+  <cwb:id>1</cwb:id>
+  <cwb:name>CamBeeler</cwb:name>
+  <cwb:age>50</cwb:age>
+  <cwb:dob>1968-01-25</cwb:dob>
+  <cwb:email>cameron.beeler@gmail.com</cwb:email>
+  <cwb:gender>M</cwb:gender>
+  <cwb:phone>4792505466</cwb:phone>
+  <cwb:payment>
+    <cwb:insurance>
+ 	    <cwb:limit>1000</cwb:limit>
+    	<cwb:provider>BCBS</cwb:provider>
+   	</cwb:insurance>
+  </cwb:payment>
+    <cwb:any>anything here</cwb:any>
+</cwb:patient>

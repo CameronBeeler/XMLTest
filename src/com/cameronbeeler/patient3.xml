@@ -1,0 +1,14 @@
+<cwb:patient xmlns:cwb="http://www.cambeeler.com/Patient">
+  <cwb:id>3</cwb:id>
+  <cwb:name>Wyatt Beeler</cwb:name>
+  <cwb:age>14</cwb:age>
+  <cwb:dob>2004-09-22</cwb:dob>
+  <cwb:email>wyattwbeeler@gmail.com</cwb:email>
+  <cwb:gender>M</cwb:gender>
+  <cwb:phone>1234567899</cwb:phone>
+  <cwb:payment>
+    <!--You have a CHOICE of the next 2 items at this level-->
+    <cwb:cash>15</cwb:cash>
+  </cwb:payment>
+  <cwb:any>I can type anything here</cwb:any>
+</cwb:patient>
